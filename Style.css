@@ -1,0 +1,20 @@
+body {
+    background-color: lightcyan;
+    font-family: monospace;
+}
+h1{
+    color:darkslategrey;
+}
+h2{
+    color: rgba(255,255,255);
+}
+div{
+    border: 5px dashed red;
+    border-width; 5px;
+    border-style: groove;
+    border-color: slateblue;
+    border-top: 5px solid red;
+}
+.class-name{
+    border-color: crimson;
+}
