@@ -1,135 +1,146 @@
-/* css Zen Garden default style v1.02 */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
-
-/* This file based on 'Tranquille' by Dave Shea */
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
-/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
-
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+/* Natalie Baker */
+/* Fundamentals of Web Design */
+/* Fall 2018 */
 
 
-/* basic elements */
-html {
+
+html{
 	margin: 0;
 	padding: 0;
     background-color: rgba(38,38,38);
 	}
 
-.intro{
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.intro h3{
-    text-align: center;
-}
-
-.intro p{
-    
-}
-
-.main supporting{
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-body { 
-	font: 125% Chalk Marks;
-	line-height: 1.15;
-	color: ghostwhite; 
+body{ 
+	font: 110% Chalk Marks;
+	line-height: 1.1;
+	/*color: rgba(239,231,219);*/
+    color: rgba(214,214,214);
 	margin: 0; 
 	padding: 0;
 	}
 
-h1{
-    font: 500% Chalk Marks;
+h1  {
+    font: 700% "Return to Sender";
+    color: lightcoral;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+    margin-bottom: 20px;
+    margin-top: 60px;
+    }
 
-h2{
+h2  {
     font: 200% Chalk Marks;
+    color: lightpink;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
-}
+    }
 
 h3 { 
 	font: 200% Chalk Marks;
-	margin-bottom: 5; 
-	color: ghostwhite;
+    color: lightpink;
+    text-decoration-line: underline;
 	}
+
+.intro{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: dotted 5px;
+    border-color: rgba(214,214,214);
+    }
+
+.intro h3{
+    text-align: center; 
+    text-decoration-line: underline;
+    }
+
+.intro h2{
+    text-decoration-line: underline;
+    }
+
+.explanation, .participation, .benefits, .requirements{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    border: dotted 5px;
+    border-color: rgba(214,214,214);
+    }
 
 a:link {  
 	text-decoration: none; 
-	color: gray;
+	color: lightsteelblue;
     text-underline-position: auto;
 	}
+
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #D4CDDC;
 	}
+
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: grey;
+	color: lightskyblue;
 	}
-abbr {}
 
-.intro {}
+abbr {
+    text-decoration-line: none;
+    }
 
-header h2 {}
+.sidebar{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: dotted 5px; 
+    border-color: rgba(214,214,214);
+    height: 635px;
+    }
 
-header {}
+a.zen-validate-html, a.zen-validate-css, a.zen-license, a.zen-accessibility, a.zen-github{
+    color: lightsteelblue;
+    font: 200% Chalk Marks;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-bottom; 50px;
+}
 
-.summary {}
+a.zen-validate-html{
+    padding-left: 50px;
+}
 
-.summary p {}
+.sidebar ul {
+    color: lightsteelblue;
+    margin-left: -25px;
+}
 
-.preamble {}
-
-.supporting {}
-
-footer {}
-
-footer a:link, footer a:visited {}
-
-.sidebar {}
-
-.sidebar .wrapper {}
-
-.sidebar h3.select {}
-
-.sidebar h3.archives {}
-
-.sidebar h3.resources {}
-
-.sidebar ul {}
-
-.sidebar li {}
-
-.sidebar li a:link {}
-
-.sidebar li a:visited {}
-
-.extra1 {}
+.sidebar li a:visited {
+    color: lightsteelblue;   
+}
 
 .page-wrapper{
     display: flex;
     flex-wrap: wrap;
-}
+    }
 
 .intro{
     width: 100%;
-}
+    }
 
 @media screen and (min-width: 1024px){
     .main, .sidebar{
         flex:1;
+        }
     }
-}
 
 .main{
-    flex-grow: 2;
-}
+    flex-grow: 3;
+    }
