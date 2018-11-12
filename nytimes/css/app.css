@@ -1,0 +1,137 @@
+html{
+	padding: 15px;
+	}
+
+body{ 
+	font: 100% serif;
+	line-height: 80%;
+    color: dimgrey;
+	margin: 0; 
+	padding: 0;
+	}
+
+h1  {
+    font: 700% "Old English";
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    }
+
+h2  {
+    font: 150% serif;
+    color: black;
+    text-align: left;
+    }
+
+h3 { 
+	font: 100% serif;
+    font-style: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
+	}
+
+.menu {
+    font: 100% serif;
+    color: black;
+    border-bottom: solid 1px;
+    margin: 0;
+    
+    word-spacing: normal;
+}
+
+.header{
+    padding-bottom: 0px;
+    border-bottom: solid 1px;
+}
+
+.header1 p{
+    text-align: left;
+    padding-top: 28px;
+    color: black;
+}
+
+.header2 p{
+    text-align: right;
+    padding-top: 28px;
+    color: black;
+}
+
+.headlines{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: 85px;
+}
+.headlines2, .headlines3, .stocks, .weather{
+    padding-left: 15px;
+    border-left: solid 1px; 
+}
+
+.weather{
+    height: 55px;
+}
+
+.firstnews{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: double;
+    border-bottom: solid 1px;
+}
+
+.firstnews1{
+    padding-right: 15px;
+}
+
+.firstnews2, .firstnews3{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: solid 1px; 
+}
+
+.sidenews{
+    border-left: solid 1px;
+}
+
+.sidenews1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px;
+}
+
+.sidenews12{
+    padding-left: 15px;
+}
+
+.sidenews21, .sidenews23, .sidenews25, .sidenews27{
+    padding-right: 15px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sidenews22, .sidenews24, .sidenews26, .sidenews28{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: solid 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sidenews31{
+    padding-top: 15px;
+}
+.sidenews32{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px;
+}
+
+.sidenews41, .sidenews42, .sidenews43, .sidenews44, .sidenews45, .sidenews46, .sidenews47, .sidenews48{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px;
+} 
+
+
