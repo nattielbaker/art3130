@@ -23,7 +23,7 @@
 html {
   font-family: sans-serif;
   /* 1 */
-  line-height: 1;
+  line-height: 1.15;
   /* 2 */
   -ms-text-size-adjust: 100%;
   /* 3 */
@@ -528,9 +528,9 @@ td {
   padding: 0; }
 
 p {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   font-size: inherit;
-  line-height: 1.25;
+  line-height: 1.6;
   text-rendering: optimizeLegibility; }
 
 em,
@@ -577,7 +577,7 @@ h2, .h2 {
   font-size: 1.25rem;
   line-height: 1.4;
   margin-top: 0;
-}
+  margin-bottom: 0.5rem; }
 
 h3, .h3 {
   font-size: 1.1875rem;
@@ -619,7 +619,7 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: black;
+  color: #2ba6cb;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
@@ -1831,7 +1831,7 @@ a.button:hover, a.button:focus {
     line-height: 1;
     text-decoration: none;
     display: block;
-    padding: 0.7rem 0.489rem; }
+    padding: 0.7rem 1rem; }
   .menu input,
   .menu select,
   .menu a,
@@ -1853,7 +1853,7 @@ a.button:hover, a.button:focus {
     -ms-flex: 1 1 0px;
         flex: 1 1 0px; }
   .menu.simple {
-    -ms-text-align: center;
+    -ms-flex-align: center;
         align-items: center; }
     .menu.simple li + li {
       margin-left: 1rem; }
