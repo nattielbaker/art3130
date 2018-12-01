@@ -1,7 +1,165 @@
+.grid-container, .grid-container.fluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ArialNarrow';
+    font-size: 32 pt;
+    font-weight: bold;
+    color: rgb(50,50,50);
+    text-align: center;
+    border: solid 3px;
+    margin: auto;
+    width: 50%;
+}
+
+h2 {
+    font-size: 36pt;
+    font: "Arial Narrow";
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(50,50,50);
+}
+
+p {
+    font-size: 14pt;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(50,50,50);
+}
+
+ul{
+    font-family: 'ArialNarrow';
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(50,50,50);
+}
+
+a{
+    color: rgb(50,50,50);
+}
+
+a:hover{
+    color: rgb(192,54,44);
+}
+
+.header {
+    
+}
+
+.logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 30%;
+}
+
+.menu {
+    margin: auto;
+}
+
 .section{
     height: 100vh;
 }
 
 html{
     scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuitems a{
+    padding: 0px;
+}
+
+.menu a, .menu .button{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (min-width:600px) {
+    .menu a, .menu .button{
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.motto h2{
+    color: white;
+}
+
+.motto p{
+    font: "Arial";
+    text-align: center;
+    color: white;
+}
+
+.motto{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: rgb(192,54,44);
+}
+
+.mottoheader {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.mottotext2{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.goals{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: white;
+}
+
+.aspire{
+    background-color: rgb(128,151,166);
+}
+
+.join{
+    background-color: white;
+}
+
+.shop{
+    background-color: rgb(192,54,44);
+}
+
+.footer{
+    background-color: white;
+    height: 45px;
+    text-align: center;
+}
+
+h6{
+    font-family: 'ArialNarrow';
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(50,50,50);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
