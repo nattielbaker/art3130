@@ -55,7 +55,7 @@ a:hover{
 }
 
 .logo img {
-    max-width: 30%;
+    max-width: 83%;
 }
 
 .menu {
@@ -82,14 +82,6 @@ html{
     padding-left: 10px;
     padding-right: 10px;
 }
-@media screen and (min-width:600px) {
-    .menu a, .menu .button{
-        padding-top: 0px;
-        padding-bottom: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
 
 .motto h2{
     color: rgb(247,243,232);
@@ -111,12 +103,6 @@ html{
     background-color: rgb(242,88,62);
 }
 
-@media screen and (min-width:600px){
-    .motto{
-    padding-left: 10rem;
-    padding-right: 10rem;
-    background-color: rgb(242,88,62);}}
-
 .goals{
     padding-bottom: 100px;
     padding-left: 2rem;
@@ -125,41 +111,16 @@ html{
     text-align: center;
 }
 
-@media screen and (min-width:600px){
-    .goals{
-    padding-bottom: 100px;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    background-color: rgb(247,243,232);
-    text-align: center;
-}
-}
-
 .goals12, .goals22, .goals32, .goals42{
     padding-right: 1.25rem;
     padding-left: 1.25rem;
     padding-bottom: 40px;
 }
 
-@media screen and (min-width:600px){
-    .goals12, .goals22, .goals32, .goals42{
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-    padding-bottom: 0px;
-} 
-
 .aspire{
     background-color: rgb(213,225,221);
     padding-left: 2rem;
     padding-right: 2rem;
-}
-   
-@media screen and (min-width:600px){
-    .aspire{
-    background-color: rgb(213,225,221);
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
 }
     
 .goals span{
@@ -176,12 +137,20 @@ html{
 
 .join{
     background-color: rgb(242,88,62);
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
 
 .join h2, .join p, .join h3 {
     color: rgb(247,243,232);
+}
+
+.joinheader{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.jointext{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .joinsign {
@@ -192,36 +161,33 @@ html{
     padding: 10px;
     border-color: rgb(247,243,232);
     border-radius: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-.jointext{
-    text-align: left;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .shop{
     background-color: rgb(247,243,232);
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
 }
 
 .shop1{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
 }
 
 .shop2{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
 }
 
 .shop3 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
     padding-bottom: 100px;
 }
 
@@ -231,8 +197,11 @@ html{
 
 .footer{
     background-color: white;
-    height: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h6{
@@ -242,4 +211,85 @@ h6{
     color: rgb(50,50,50);
     margin-top: 20px;
     margin-bottom: 20px;
+}
+    
+@media screen and (min-width:600px) {
+    .logo img{
+    max-width: 30%;
+    }
+    
+    .menu a, .menu .button{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;}
+    
+    .motto{
+    padding-left: 10rem;
+    padding-right: 10rem;}
+    
+    .goals{
+    padding-bottom: 100px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;}
+    
+    .goals12, .goals22, .goals32, .goals42{
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    padding-bottom: 0px;}
+    
+    .aspire{
+    padding-left: 10rem;
+    padding-right: 10rem;}
+    
+    .shop{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;}
+    
+    .shop1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;}
+
+    .shop2{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;}
+
+    .shop3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;}
+        
+    .footer{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    
+    .joinheader{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+    .jointext{
+    padding-left: 28rem;
+    padding-right: 28rem;
+}
+
+    .joinsign {
+    margin-bottom: 100px;
+    margin-top: 40px;
+    text-align: center;
+    border: solid 2px;
+    padding: 10px;
+    border-color: rgb(247,243,232);
+    border-radius: 10px;
+    margin-left: 28rem;
+    margin-right: 28rem;
+}
+    
+}
+}
 }
